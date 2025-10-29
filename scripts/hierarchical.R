@@ -29,11 +29,11 @@ perform_hclust <- function(file_path, id_column_name, output_prefix) {
     return(NULL)
   }
   
-  # Hitung matriks jarak (Sesuai permintaan: "Euclidean")
+  # Hitung matriks jarak ("Euclidean")
   # dist() menghitung jarak antar baris (antar varietas pisang)
   dist_matrix <- dist(data_numeric_clean, method = "euclidean")
   
-  # Lakukan hierarchical clustering (Sesuai permintaan: "Ward")
+  # Lakukan hierarchical clustering ("Ward")
   # "ward.D2" adalah metode Ward yang standar dan efektif
   hclust_result <- hclust(dist_matrix, method = "ward.D2")
   
@@ -69,4 +69,5 @@ hclust_k <- perform_hclust(file_kandangan,
 # Kolom ID di file ini adalah "Nama.Pisang"
 hclust_b <- perform_hclust(file_banjarbaru, 
                            id_column_name = "Nama.Pisang", 
+
                            output_prefix = "banjarbaru")
