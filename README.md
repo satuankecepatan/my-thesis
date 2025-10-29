@@ -16,7 +16,7 @@ Check out `data/` for the raw data. Mostly in `.csv`. My plan for this thesis is
 
 ## Morphological Analysis Results
 
-This section has the main findings from the R analysis scripts. All output tables are in `my-thesis/results/` and plots are in `my-thesis/results/plots/`.
+This section has the main findings from the R analysis scripts. All output tables are in `results/` and plots are in `results/plots/`.
 
 ### 1. Principal Component Analysis (PCA)
 
