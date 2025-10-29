@@ -2,7 +2,7 @@
 
 Check out `data/` for the raw data. Mostly in `.csv`. My plan for this thesis is:
 
-- Standardize the data
+- Standardize the data [DONE]
 - PCA
 - Hierachical categorization
 - Pearson correlation
