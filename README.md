@@ -27,8 +27,8 @@ PCA was super useful for simplifying the data.
 
 You can see the "elbow" on the scree plots:
 
-![Kandangan Scree Plot](my-thesis/results/plots/kandangan_scree_plot.png)
-![Banjarbaru Scree Plot](my-thesis/results/plots/banjarbaru_scree_plot.png)
+![Kandangan Scree Plot](results/plots/kandangan_scree_plot.png)
+![Banjarbaru Scree Plot](results/plots/banjarbaru_scree_plot.png)
 
 **Key Findings (from the `_pca_loadings.csv` tables):**
 
@@ -37,15 +37,15 @@ You can see the "elbow" on the scree plots:
 
 The biplots visualize this, showing which samples cluster together.
 
-![Kandangan Biplot](my-thesis/results/plots/kandangan_biplot.png)
-![Banjarbaru Biplot](my-thesis/results/plots/banjarbaru_biplot.png)
+![Kandangan Biplot](results/plots/kandangan_biplot.png)
+![Banjarbaru Biplot](results/plots/banjarbaru_biplot.png)
 
 ### 2. Hierarchical Clustering
 
 This shows which varieties are morphologically most similar.
 
-![Kandangan Dendrogram](my-thesis/results/plots/kandangan_dendrogram.png)
-![Banjarbaru Dendrogram](my-thesis/results/plots/banjarbaru_dendrogram.png)
+![Kandangan Dendrogram](results/plots/kandangan_dendrogram.png)
+![Banjarbaru Dendrogram](results/plots/banjarbaru_dendrogram.png)
 
 **Key Findings:**
 
@@ -56,8 +56,8 @@ This shows which varieties are morphologically most similar.
 
 This shows which quantitative traits are related. The heatmaps give a quick visual, with dark blue = strong positive correlation.
 
-![Kandangan Correlogram](my-thesis/results/plots/kandangan_correlogram.png)
-![Banjarbaru Correlogram](my-thesis/results/plots/banjarbaru_correlogram.png)
+![Kandangan Correlogram](results/plots/kandangan_correlogram.png)
+![Banjarbaru Correlogram](results/plots/banjarbaru_correlogram.png)
 
 **Key Findings (from the `_correlation_matrix.csv` tables):**
 
